@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #D57E7E;
+    color: #F8EDE3;
+    font-family: 'Acme', sans-serif;
+}
+
+.wrapper{
+    text-align: center;
+    margin-top: 30%;
+}
+
+.time-container{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.date-container{
+    font-size: 1.5rem;
+}
+
+/* for large screens */
+@media screen and (min-width:700px){
+    .wrapper{
+        margin-top: 15%;
+    }
+}
